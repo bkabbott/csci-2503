@@ -12,3 +12,9 @@
   - `r-x` equivalent to 101<sub>2</sub> => 5<sub>10</sub>
   - `rw-` equivalent to 110<sub>2</sub> => 6<sub>10</sub>
   - `rwx` equivalent to 111<sub>2</sub> => 7<sub>10</sub>
+
+- Can execute commands using a **Subshell**
+
+````bash
+echo $( command )
+````
