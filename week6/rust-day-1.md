@@ -10,3 +10,12 @@
 - Rust shoports uncode
 - `println!` is a macro
 - **macros** are used in sutuations where you have a variable number of arguments. *no function overloading*
+
+````rust
+// Copyright 2024 Google LLC
+// SPDX-License-Identifier: Apache-2.0
+
+fn main() {
+    println!("Hello 🌍!");
+}
+````
