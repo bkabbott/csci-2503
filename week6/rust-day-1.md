@@ -44,3 +44,4 @@ fn main() {
 - `isize` and `usize` are the width of a pointer
 - `char` is 32 bits wide
 - `bool| is 8 bits wide
+- supports signed and unsigned integers
