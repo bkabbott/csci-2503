@@ -19,3 +19,8 @@ fn main() {
     println!("Hello 🌍!");
 }
 ````
+
+### 5.2 Variables
+
+- rust provides type safety with statitc typing
+- rust supports type inference making it optional to explicitly declaere the type
