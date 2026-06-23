@@ -43,5 +43,10 @@ fn main() {
 
 - `isize` and `usize` are the width of a pointer
 - `char` is 32 bits wide
-- `bool| is 8 bits wide
+- `bool` is 8 bits wide
 - supports signed and unsigned integers
+
+#### 5.4 Arithmetic
+
+- Integer overflow is defined in rust. In a **debug build** it *panics* (checked). in a **release build** it *wraps*
+- the compiler detects overflows of constant expressions
