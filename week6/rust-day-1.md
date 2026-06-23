@@ -24,3 +24,17 @@ fn main() {
 
 - rust provides type safety with statitc typing
 - rust supports type inference making it optional to explicitly declaere the type
+- variables are immutable by default, you explicitly make variables mutable by adding `mut`
+- If you make a variable mutable but dont change its value, the compiler will throw a warning
+
+````rust
+// Copyright 2023 Google LLC
+// SPDX-License-Identifier: Apache-2.0
+
+fn main() {
+    let x: i32 = 10;
+    println!("x: {x}");
+    // x = 20;
+    // println!("x: {x}");
+}
+````
