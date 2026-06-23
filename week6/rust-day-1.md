@@ -50,3 +50,8 @@ fn main() {
 
 - Integer overflow is defined in rust. In a **debug build** it *panics* (checked). in a **release build** it *wraps*
 - the compiler detects overflows of constant expressions
+
+#### 5.5 Type Inference 
+
+- integers default to 32 bits
+- float defaults to 64 bits
