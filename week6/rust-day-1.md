@@ -20,7 +20,7 @@ fn main() {
 }
 ````
 
-### 5.2 Variables
+#### 5.2 Variables
 
 - rust provides type safety with statitc typing
 - rust supports type inference making it optional to explicitly declaere the type
@@ -38,3 +38,9 @@ fn main() {
     // println!("x: {x}");
 }
 ````
+
+#### 5.3 Values
+
+- `isize` and `usize` are the width of a pointer
+- `char` is 32 bits wide
+- `bool| is 8 bits wide
